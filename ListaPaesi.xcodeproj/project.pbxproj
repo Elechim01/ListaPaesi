@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4B9EDB426D44640004914B9 /* ListaPaesiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B9EDB326D44640004914B9 /* ListaPaesiApp.swift */; };
+		C4B9EDB626D44640004914B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B9EDB526D44640004914B9 /* ContentView.swift */; };
+		C4B9EDB826D44641004914B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4B9EDB726D44641004914B9 /* Assets.xcassets */; };
+		C4B9EDBB26D44641004914B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4B9EDBA26D44641004914B9 /* Preview Assets.xcassets */; };
+		C4B9EDC026D44641004914B9 /* ListaPaesi WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C4B9EDBF26D44641004914B9 /* ListaPaesi WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C4B9EDC526D44642004914B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4B9EDC426D44642004914B9 /* Assets.xcassets */; };
+		C4B9EDCC26D44642004914B9 /* ListaPaesi WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C4B9EDCB26D44642004914B9 /* ListaPaesi WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C4B9EDD126D44642004914B9 /* ListaPaesiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B9EDD026D44642004914B9 /* ListaPaesiApp.swift */; };
+		C4B9EDD326D44642004914B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B9EDD226D44642004914B9 /* ContentView.swift */; };
+		C4B9EDD526D44642004914B9 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B9EDD426D44642004914B9 /* NotificationController.swift */; };
+		C4B9EDD726D44642004914B9 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B9EDD626D44642004914B9 /* NotificationView.swift */; };
+		C4B9EDD926D44642004914B9 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B9EDD826D44642004914B9 /* ComplicationController.swift */; };
+		C4B9EDDB26D44643004914B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4B9EDDA26D44643004914B9 /* Assets.xcassets */; };
+		C4B9EDDE26D44643004914B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4B9EDDD26D44643004914B9 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4B9EDC126D44641004914B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4B9EDA826D4463F004914B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4B9EDBE26D44641004914B9;
+			remoteInfo = "ListaPaesi WatchKit App";
+		};
+		C4B9EDCD26D44642004914B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4B9EDA826D4463F004914B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4B9EDCA26D44642004914B9;
+			remoteInfo = "ListaPaesi WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C4B9EDE626D44643004914B9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C4B9EDCC26D44642004914B9 /* ListaPaesi WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B9EDEA26D44643004914B9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C4B9EDC026D44641004914B9 /* ListaPaesi WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C4B9EDB026D44640004914B9 /* ListaPaesi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListaPaesi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4B9EDB326D44640004914B9 /* ListaPaesiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaPaesiApp.swift; sourceTree = "<group>"; };
+		C4B9EDB526D44640004914B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C4B9EDB726D44641004914B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4B9EDBA26D44641004914B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C4B9EDBC26D44641004914B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4B9EDBF26D44641004914B9 /* ListaPaesi WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ListaPaesi WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4B9EDC426D44642004914B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4B9EDC626D44642004914B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4B9EDCB26D44642004914B9 /* ListaPaesi WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ListaPaesi WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4B9EDD026D44642004914B9 /* ListaPaesiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaPaesiApp.swift; sourceTree = "<group>"; };
+		C4B9EDD226D44642004914B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C4B9EDD426D44642004914B9 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		C4B9EDD626D44642004914B9 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		C4B9EDD826D44642004914B9 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		C4B9EDDA26D44643004914B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4B9EDDD26D44643004914B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C4B9EDDF26D44643004914B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4B9EDE026D44643004914B9 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4B9EDAD26D44640004914B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B9EDC826D44642004914B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4B9EDA726D4463F004914B9 = {
+			isa = PBXGroup;
+			children = (
+				C4B9EDB226D44640004914B9 /* ListaPaesi */,
+				C4B9EDC326D44641004914B9 /* ListaPaesi WatchKit App */,
+				C4B9EDCF26D44642004914B9 /* ListaPaesi WatchKit Extension */,
+				C4B9EDB126D44640004914B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4B9EDB126D44640004914B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4B9EDB026D44640004914B9 /* ListaPaesi.app */,
+				C4B9EDBF26D44641004914B9 /* ListaPaesi WatchKit App.app */,
+				C4B9EDCB26D44642004914B9 /* ListaPaesi WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4B9EDB226D44640004914B9 /* ListaPaesi */ = {
+			isa = PBXGroup;
+			children = (
+				C4B9EDB326D44640004914B9 /* ListaPaesiApp.swift */,
+				C4B9EDB526D44640004914B9 /* ContentView.swift */,
+				C4B9EDB726D44641004914B9 /* Assets.xcassets */,
+				C4B9EDBC26D44641004914B9 /* Info.plist */,
+				C4B9EDB926D44641004914B9 /* Preview Content */,
+			);
+			path = ListaPaesi;
+			sourceTree = "<group>";
+		};
+		C4B9EDB926D44641004914B9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C4B9EDBA26D44641004914B9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C4B9EDC326D44641004914B9 /* ListaPaesi WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C4B9EDC426D44642004914B9 /* Assets.xcassets */,
+				C4B9EDC626D44642004914B9 /* Info.plist */,
+			);
+			path = "ListaPaesi WatchKit App";
+			sourceTree = "<group>";
+		};
+		C4B9EDCF26D44642004914B9 /* ListaPaesi WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C4B9EDD026D44642004914B9 /* ListaPaesiApp.swift */,
+				C4B9EDD226D44642004914B9 /* ContentView.swift */,
+				C4B9EDD426D44642004914B9 /* NotificationController.swift */,
+				C4B9EDD626D44642004914B9 /* NotificationView.swift */,
+				C4B9EDD826D44642004914B9 /* ComplicationController.swift */,
+				C4B9EDDA26D44643004914B9 /* Assets.xcassets */,
+				C4B9EDDF26D44643004914B9 /* Info.plist */,
+				C4B9EDE026D44643004914B9 /* PushNotificationPayload.apns */,
+				C4B9EDDC26D44643004914B9 /* Preview Content */,
+			);
+			path = "ListaPaesi WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C4B9EDDC26D44643004914B9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C4B9EDDD26D44643004914B9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4B9EDAF26D44640004914B9 /* ListaPaesi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4B9EDEB26D44643004914B9 /* Build configuration list for PBXNativeTarget "ListaPaesi" */;
+			buildPhases = (
+				C4B9EDAC26D44640004914B9 /* Sources */,
+				C4B9EDAD26D44640004914B9 /* Frameworks */,
+				C4B9EDAE26D44640004914B9 /* Resources */,
+				C4B9EDEA26D44643004914B9 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4B9EDC226D44641004914B9 /* PBXTargetDependency */,
+			);
+			name = ListaPaesi;
+			productName = ListaPaesi;
+			productReference = C4B9EDB026D44640004914B9 /* ListaPaesi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4B9EDBE26D44641004914B9 /* ListaPaesi WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4B9EDE726D44643004914B9 /* Build configuration list for PBXNativeTarget "ListaPaesi WatchKit App" */;
+			buildPhases = (
+				C4B9EDBD26D44641004914B9 /* Resources */,
+				C4B9EDE626D44643004914B9 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4B9EDCE26D44642004914B9 /* PBXTargetDependency */,
+			);
+			name = "ListaPaesi WatchKit App";
+			productName = "ListaPaesi WatchKit App";
+			productReference = C4B9EDBF26D44641004914B9 /* ListaPaesi WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C4B9EDCA26D44642004914B9 /* ListaPaesi WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4B9EDE326D44643004914B9 /* Build configuration list for PBXNativeTarget "ListaPaesi WatchKit Extension" */;
+			buildPhases = (
+				C4B9EDC726D44642004914B9 /* Sources */,
+				C4B9EDC826D44642004914B9 /* Frameworks */,
+				C4B9EDC926D44642004914B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ListaPaesi WatchKit Extension";
+			productName = "ListaPaesi WatchKit Extension";
+			productReference = C4B9EDCB26D44642004914B9 /* ListaPaesi WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4B9EDA826D4463F004914B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C4B9EDAF26D44640004914B9 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					C4B9EDBE26D44641004914B9 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					C4B9EDCA26D44642004914B9 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = C4B9EDAB26D4463F004914B9 /* Build configuration list for PBXProject "ListaPaesi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4B9EDA726D4463F004914B9;
+			productRefGroup = C4B9EDB126D44640004914B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4B9EDAF26D44640004914B9 /* ListaPaesi */,
+				C4B9EDBE26D44641004914B9 /* ListaPaesi WatchKit App */,
+				C4B9EDCA26D44642004914B9 /* ListaPaesi WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4B9EDAE26D44640004914B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B9EDBB26D44641004914B9 /* Preview Assets.xcassets in Resources */,
+				C4B9EDB826D44641004914B9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B9EDBD26D44641004914B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B9EDC526D44642004914B9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B9EDC926D44642004914B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B9EDDE26D44643004914B9 /* Preview Assets.xcassets in Resources */,
+				C4B9EDDB26D44643004914B9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4B9EDAC26D44640004914B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B9EDB626D44640004914B9 /* ContentView.swift in Sources */,
+				C4B9EDB426D44640004914B9 /* ListaPaesiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B9EDC726D44642004914B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B9EDD526D44642004914B9 /* NotificationController.swift in Sources */,
+				C4B9EDD326D44642004914B9 /* ContentView.swift in Sources */,
+				C4B9EDD926D44642004914B9 /* ComplicationController.swift in Sources */,
+				C4B9EDD126D44642004914B9 /* ListaPaesiApp.swift in Sources */,
+				C4B9EDD726D44642004914B9 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4B9EDC226D44641004914B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4B9EDBE26D44641004914B9 /* ListaPaesi WatchKit App */;
+			targetProxy = C4B9EDC126D44641004914B9 /* PBXContainerItemProxy */;
+		};
+		C4B9EDCE26D44642004914B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4B9EDCA26D44642004914B9 /* ListaPaesi WatchKit Extension */;
+			targetProxy = C4B9EDCD26D44642004914B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C4B9EDE126D44643004914B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4B9EDE226D44643004914B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C4B9EDE426D44643004914B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ListaPaesi WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = G7DSPSWXXC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "ListaPaesi WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MicheleManniello.ListaPaesi.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		C4B9EDE526D44643004914B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ListaPaesi WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = G7DSPSWXXC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "ListaPaesi WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MicheleManniello.ListaPaesi.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		C4B9EDE826D44643004914B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7DSPSWXXC;
+				IBSC_MODULE = ListaPaesi_WatchKit_Extension;
+				INFOPLIST_FILE = "ListaPaesi WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MicheleManniello.ListaPaesi.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		C4B9EDE926D44643004914B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7DSPSWXXC;
+				IBSC_MODULE = ListaPaesi_WatchKit_Extension;
+				INFOPLIST_FILE = "ListaPaesi WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MicheleManniello.ListaPaesi.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		C4B9EDEC26D44643004914B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ListaPaesi/Preview Content\"";
+				DEVELOPMENT_TEAM = G7DSPSWXXC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ListaPaesi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MicheleManniello.ListaPaesi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4B9EDED26D44643004914B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ListaPaesi/Preview Content\"";
+				DEVELOPMENT_TEAM = G7DSPSWXXC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ListaPaesi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MicheleManniello.ListaPaesi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4B9EDAB26D4463F004914B9 /* Build configuration list for PBXProject "ListaPaesi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4B9EDE126D44643004914B9 /* Debug */,
+				C4B9EDE226D44643004914B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4B9EDE326D44643004914B9 /* Build configuration list for PBXNativeTarget "ListaPaesi WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4B9EDE426D44643004914B9 /* Debug */,
+				C4B9EDE526D44643004914B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4B9EDE726D44643004914B9 /* Build configuration list for PBXNativeTarget "ListaPaesi WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4B9EDE826D44643004914B9 /* Debug */,
+				C4B9EDE926D44643004914B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4B9EDEB26D44643004914B9 /* Build configuration list for PBXNativeTarget "ListaPaesi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4B9EDEC26D44643004914B9 /* Debug */,
+				C4B9EDED26D44643004914B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4B9EDA826D4463F004914B9 /* Project object */;
+}
