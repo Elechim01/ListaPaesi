@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C48E433626D6CEC60027E966 /* ModelPaesi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C48E433426D6CEC50027E966 /* ModelPaesi.xcdatamodeld */; };
+		C48E433826D6CFED0027E966 /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E433726D6CFED0027E966 /* Persistance.swift */; };
+		C48E434026D6D79E0027E966 /* PaesiC+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E433E26D6D79E0027E966 /* PaesiC+CoreDataClass.swift */; };
+		C48E434126D6D79E0027E966 /* PaesiC+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E433F26D6D79E0027E966 /* PaesiC+CoreDataProperties.swift */; };
 		C4B9EDB426D44640004914B9 /* ListaPaesiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B9EDB326D44640004914B9 /* ListaPaesiApp.swift */; };
 		C4B9EDB626D44640004914B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B9EDB526D44640004914B9 /* ContentView.swift */; };
 		C4B9EDB826D44641004914B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4B9EDB726D44641004914B9 /* Assets.xcassets */; };
@@ -21,6 +25,9 @@
 		C4B9EDD926D44642004914B9 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B9EDD826D44642004914B9 /* ComplicationController.swift */; };
 		C4B9EDDB26D44643004914B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4B9EDDA26D44643004914B9 /* Assets.xcassets */; };
 		C4B9EDDE26D44643004914B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4B9EDDD26D44643004914B9 /* Preview Assets.xcassets */; };
+		C4B9EDF026D446D2004914B9 /* Modelli.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B9EDEF26D446D2004914B9 /* Modelli.swift */; };
+		C4B9EDF326D55BBB004914B9 /* ViewModelWatchkitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B9EDF226D55BBB004914B9 /* ViewModelWatchkitExtension.swift */; };
+		C4B9EDF926D55E70004914B9 /* ListaElementi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B9EDF826D55E70004914B9 /* ListaElementi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +73,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C48E433526D6CEC50027E966 /* ModelPesi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ModelPesi.xcdatamodel; sourceTree = "<group>"; };
+		C48E433726D6CFED0027E966 /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
+		C48E433E26D6D79E0027E966 /* PaesiC+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PaesiC+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C48E433F26D6D79E0027E966 /* PaesiC+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PaesiC+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		C4B9EDB026D44640004914B9 /* ListaPaesi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListaPaesi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B9EDB326D44640004914B9 /* ListaPaesiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaPaesiApp.swift; sourceTree = "<group>"; };
 		C4B9EDB526D44640004914B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,6 +96,9 @@
 		C4B9EDDD26D44643004914B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C4B9EDDF26D44643004914B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4B9EDE026D44643004914B9 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C4B9EDEF26D446D2004914B9 /* Modelli.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelli.swift; sourceTree = "<group>"; };
+		C4B9EDF226D55BBB004914B9 /* ViewModelWatchkitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelWatchkitExtension.swift; sourceTree = "<group>"; };
+		C4B9EDF826D55E70004914B9 /* ListaElementi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaElementi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +119,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C48E433926D6D0530027E966 /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				C48E433426D6CEC50027E966 /* ModelPaesi.xcdatamodeld */,
+			);
+			path = CoreDataModel;
+			sourceTree = "<group>";
+		};
 		C4B9EDA726D4463F004914B9 = {
 			isa = PBXGroup;
 			children = (
+				C48E433E26D6D79E0027E966 /* PaesiC+CoreDataClass.swift */,
+				C48E433F26D6D79E0027E966 /* PaesiC+CoreDataProperties.swift */,
 				C4B9EDB226D44640004914B9 /* ListaPaesi */,
 				C4B9EDC326D44641004914B9 /* ListaPaesi WatchKit App */,
 				C4B9EDCF26D44642004914B9 /* ListaPaesi WatchKit Extension */,
@@ -128,6 +152,8 @@
 		C4B9EDB226D44640004914B9 /* ListaPaesi */ = {
 			isa = PBXGroup;
 			children = (
+				C4B9EDF726D55E3F004914B9 /* SharedView */,
+				C4B9EDEE26D446A4004914B9 /* Model */,
 				C4B9EDB326D44640004914B9 /* ListaPaesiApp.swift */,
 				C4B9EDB526D44640004914B9 /* ContentView.swift */,
 				C4B9EDB726D44641004914B9 /* Assets.xcassets */,
@@ -162,6 +188,7 @@
 				C4B9EDD426D44642004914B9 /* NotificationController.swift */,
 				C4B9EDD626D44642004914B9 /* NotificationView.swift */,
 				C4B9EDD826D44642004914B9 /* ComplicationController.swift */,
+				C4B9EDF226D55BBB004914B9 /* ViewModelWatchkitExtension.swift */,
 				C4B9EDDA26D44643004914B9 /* Assets.xcassets */,
 				C4B9EDDF26D44643004914B9 /* Info.plist */,
 				C4B9EDE026D44643004914B9 /* PushNotificationPayload.apns */,
@@ -176,6 +203,24 @@
 				C4B9EDDD26D44643004914B9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C4B9EDEE26D446A4004914B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C48E433926D6D0530027E966 /* CoreDataModel */,
+				C4B9EDEF26D446D2004914B9 /* Modelli.swift */,
+				C48E433726D6CFED0027E966 /* Persistance.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4B9EDF726D55E3F004914B9 /* SharedView */ = {
+			isa = PBXGroup;
+			children = (
+				C4B9EDF826D55E70004914B9 /* ListaElementi.swift */,
+			);
+			path = SharedView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +293,7 @@
 					};
 					C4B9EDBE26D44641004914B9 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 					C4B9EDCA26D44642004914B9 = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -308,8 +354,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4B9EDF026D446D2004914B9 /* Modelli.swift in Sources */,
 				C4B9EDB626D44640004914B9 /* ContentView.swift in Sources */,
+				C48E434126D6D79E0027E966 /* PaesiC+CoreDataProperties.swift in Sources */,
+				C4B9EDF926D55E70004914B9 /* ListaElementi.swift in Sources */,
+				C48E433626D6CEC60027E966 /* ModelPaesi.xcdatamodeld in Sources */,
+				C48E434026D6D79E0027E966 /* PaesiC+CoreDataClass.swift in Sources */,
 				C4B9EDB426D44640004914B9 /* ListaPaesiApp.swift in Sources */,
+				C48E433826D6CFED0027E966 /* Persistance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +369,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4B9EDF326D55BBB004914B9 /* ViewModelWatchkitExtension.swift in Sources */,
 				C4B9EDD526D44642004914B9 /* NotificationController.swift in Sources */,
 				C4B9EDD326D44642004914B9 /* ContentView.swift in Sources */,
 				C4B9EDD926D44642004914B9 /* ComplicationController.swift in Sources */,
@@ -507,14 +560,21 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G7DSPSWXXC;
 				IBSC_MODULE = ListaPaesi_WatchKit_Extension;
 				INFOPLIST_FILE = "ListaPaesi WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MicheleManniello.ListaPaesi.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 7.4;
@@ -527,10 +587,16 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G7DSPSWXXC;
 				IBSC_MODULE = ListaPaesi_WatchKit_Extension;
 				INFOPLIST_FILE = "ListaPaesi WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MicheleManniello.ListaPaesi.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -629,6 +695,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C48E433426D6CEC50027E966 /* ModelPaesi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C48E433526D6CEC50027E966 /* ModelPesi.xcdatamodel */,
+			);
+			currentVersion = C48E433526D6CEC50027E966 /* ModelPesi.xcdatamodel */;
+			path = ModelPaesi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C4B9EDA826D4463F004914B9 /* Project object */;
 }
